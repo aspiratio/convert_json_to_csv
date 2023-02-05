@@ -1,8 +1,11 @@
 import csv
 import json
+import shutil
+
+file = input("Input a file name")
 
 # JSONファイルを読み込んで辞書型に変換
-with open("test.json", "r") as f:
+with open(file, "r") as f:
     json_dict = json.load(f)
 
 # CSVファイルに書き込み

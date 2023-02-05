@@ -2,3 +2,10 @@
 test.json
 test.csv
 output.csv
+
+# 環境変数
+venv
+
+# 開発用ツール
+.ipynb_checkpoints
+*.ipynb
